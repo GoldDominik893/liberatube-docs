@@ -27,8 +27,15 @@ jobs:
       - name: Build documentation
         run: mkdocs build
 
-      - name: Deploy to GitHub Pages
+      - name: Set up Git credentials
         run: |
           git config --global user.email "github-actions@github.com"
           git config --global user.name "GitHub Actions"
+          git config --global credential.helper "store --file=/tmp/git-credentials"
+          echo "https://github.com:$GH_PAT@github.com" > /tmp/git-credentials
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+
+      - name: Deploy to GitHub Pages
+        run: |
           mkdocs gh-deploy --force
