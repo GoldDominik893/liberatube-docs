@@ -2,8 +2,23 @@ site_name: Liberatube Docs
 repo_url: https://github.com/golddominik893/liberatube
 repo_name: golddominik893/liberatube
 
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+
 
 theme:
+  features:
+    - content.code.copy
+    - content.tabs.link
+
   palette:
     - scheme: slate
       primary: black
