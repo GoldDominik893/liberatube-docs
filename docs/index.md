@@ -5,6 +5,7 @@
 - [About](general/1.about.md)
 - [Liberatube Instances](general/2.instances.md)
 - [Promotional Videos](general/3.videos.md)
+- [Privacy](general/4.privacy.md)
 
 ## Installation
 
