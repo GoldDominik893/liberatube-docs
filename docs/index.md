@@ -7,6 +7,7 @@
 - [Promotional Videos](general/3.videos.md)
 - [Privacy](general/4.privacy.md)
 - [License](general/5.license.md)
+- [Other Projects using Liberatube](general/6.things-using-liberatube.md)
 
 ## Installation
 
