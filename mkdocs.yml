@@ -1,6 +1,7 @@
 site_name: Liberatube Docs
 repo_url: https://github.com/golddominik893/liberatube
 repo_name: golddominik893/liberatube
+site_url: https://liberatube-docs.epicsite.xyz/
 
 markdown_extensions:
   - pymdownx.highlight:
