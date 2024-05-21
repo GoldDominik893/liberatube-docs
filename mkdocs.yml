@@ -18,6 +18,7 @@ markdown_extensions:
 
 
 theme:
+  
   features:
     - content.code.copy
     - content.tabs.link
@@ -25,12 +26,16 @@ theme:
 
   palette:
     - scheme: slate
-      primary: black
+      accent: red
+      primary: red
+
       toggle:
         icon: material/lightbulb-outline
         name: Switch to light mode
 
     - scheme: default
+      accent: red
+      primary: grey
       toggle:
         icon: material/lightbulb
         name: Switch to dark mode
