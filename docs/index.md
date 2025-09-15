@@ -15,4 +15,5 @@
 - [Prerequisites](installation/1.prerequisites.md)
 - [Installation](installation/2.installation.md)
 - [Post Install Configuration](installation/3.post-install.md)
-- [Updating Liberatube](installation/4.updating.md)
+- [Maintaining a liberatube instance](installation/4.maintenance.md)
+- [Updating Liberatube](installation/5.updating.md)
